@@ -30,7 +30,7 @@ try{
 
  if ($encryptionStatus -eq $null -Or $encryptionStatus -eq 0) {
         #Write-Output "BitLocker is not enabled on the system drive ($systemDrive)."
-        # Enable BitLocker using Aes256 encryption, NIST Approved for CMMC 2.0
+        # Enable BitLocker using Aes256 encryption.
         $encryptionMethod = "Aes256"
         $recoveryPasswordProtector = $true
 
