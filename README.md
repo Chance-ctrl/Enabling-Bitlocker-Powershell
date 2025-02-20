@@ -1,6 +1,6 @@
 ${\textsf{\color{lightblue} Enabling Bitlocker / Checking If Bitlocker is Enabled.}}$
 ============
-A short Powershell script to enable bitlocker, check if it's already enabled, and log the outcome in Windows Event Viewer. This is by no means the best way to tackle this, but this gives an idea of how admins can automate this process in their environment
+A short Powershell script to enable bitlocker, check if it's already enabled, and log the outcome in Windows Event Viewer. I wrote this some years back on a serious IT budget with no way of centralizing logs or capturing log sources. This is a terrible way to tackle this, but this gives an idea of how admins can automate this process in their environment if they lack tools/software.
 
 ### What this script does.
 
